@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 13, 2017, 12:11:01 PM
+    Author     : Devanshu
+*/
+.sponsers{
+    padding: 20px 0px;
+    background-color: #e3e3e3;
+}
+.sponsers h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px 0px;
+    color: black;
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    padding: 0px;
+    
+}
+.sponsers-container{
+    padding: 0px 50px;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.img-container{
+    overflow: hidden;
+}
+.sponsers-container .row .img-container .sponser-type{
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.sponsers-container .row .img-container img{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    margin-top: 5px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+@media (min-width: 480px) and (max-width: 767px) {
+       
+}
+@media only screen and (max-width: 480px) {
+    .sponsers h2{
+        font-size: 1.8em;
+    }
+    .sponsers-container .row .img-container .sponser-type{
+        font-size: 0.7em;
+        padding: 8px;
+    }
+    .sponsers-container .row .img-container img{
+        width : 100px;
+        height : 100px;
+       
+    }
+    
+}

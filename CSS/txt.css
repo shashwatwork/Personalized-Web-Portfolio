@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2017, 6:15:22 PM
+    Author     : Devanshu
+*/
+
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+.introduction #wrapper .container {
+    font-family: 'Bungee Inline', cursive;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6em;
+}
+/* wrapper */
+#wrapper {
+    text-align: center;
+    width: 100%;	
+}
+/* countdown */
+#countdown {
+    font-size: 28px;
+    color: #FFFFFF;
+    line-height: 1.1em;
+    margin: 40px 0;
+    letter-spacing: .1em;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 1px 3c00ff;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 480px) and (max-width: 767px) {
+    #countdown {
+        font-size: 23px;
+    }
+
+}
+@media only screen and (max-width: 480px) {
+    #countdown {
+        font-size: 20px;
+    }
+}

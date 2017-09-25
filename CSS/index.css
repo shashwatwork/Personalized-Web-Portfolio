@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2017, 10:21:11 AM
+    Author     : Devanshu
+*/
+/*@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');font-family: 'Bungee Inline', cursive;*/
+
+@font-face {
+    font-family: 'Bungee Inline';
+    src:url('../registration/fonts/webfonts_AR-DESTINE/AR-DESTINE.ttf.woff') format('woff'),
+        url('../fonts/webfonts_AR-DESTINE/AR-DESTINE.ttf.svg#AR-DESTINE') format('svg'),
+        url('../fonts/webfonts_AR-DESTINE/AR-DESTINE.ttf.eot'),
+        url('../fonts/webfonts_AR-DESTINE/AR-DESTINE.ttf.eot?#iefix') format('embedded-opentype'); 
+}
+body{
+    text-shadow: 1px 1px 1px black;
+}
+
+header{
+    background-image: url("../images/10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar{
+    margin-bottom: 0px;
+    border-radius: 0px;
+    font-family: 'Bungee Inline', cursive; 
+
+}
+.navbar-default{
+    box-shadow: none;
+    background: none;
+    border: 0px;
+}
+.navbar-nav {
+    float: right;
+}
+.navbar-default .navbar-nav > li > a ,.navbar-brand {
+    color: white;
+    font-size: 1.3em;
+}
+.navbar-default .navbar-nav > li > a:hover , .navbar-brand:hover {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:visited , .navbar-brand:visited, .navbar-brand:link {
+    color: white;
+}
+.hvr-underline-from-left:before{
+    background: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fdf9f9;
+}
+.introduction{
+/*    background: linear-gradient(to left, #d53369 , #cbad6d);*/
+    
+    font-family: 'Bungee Inline', cursive; 
+}
+
+.introduction .img-responsive {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.introduction h1,h2,h3{
+    color:white;
+    text-align: center;
+    padding: 22px 0px;
+/*    letter-spacing: .2em;*/
+    font-size: 3em;
+    margin: 0px;
+    padding: 15px 0px;
+}
+.introduction h2{
+    font-size: 2em;
+}
+.introduction h3{
+    font-size: 1.5em;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 480px) and (max-width: 767px) {
+    .navbar-nav {
+        float: none;
+        text-align: center
+    }
+    .introduction .img-responsive {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .introduction h1,h2,h3{
+        font-size: 2.2em;
+    }
+    .introduction h2{
+        font-size: 1.5em;
+    }
+    .introduction h3{
+        font-size:1.2em;
+    }
+    
+}
+@media only screen and (max-width: 480px) {
+    .navbar-nav {
+        float: none;
+        text-align: center
+    }
+    .introduction .img-responsive {
+        width: 48px;
+        height: 48px;
+    }
+    .introduction h1,h2,h3{
+        font-size: 1.7em;
+    }
+    .introduction h2{
+        font-size: 1.2em;
+    }
+    .introduction h3{
+        font-size:1em;
+    }
+}
+
+/********************news div********************/
+
+.newsHolder{
+    background-color: #f1f2f5;
+    padding: 20px 90px;
+    text-shadow: none;
+}
+.newsHolder .news{
+    display: inline-block;
+}
+.news h4{  
+    font-weight: bold;
+}
+.news .blueText{
+    color:#00aa9d;
+    font-weight: bold;
+}
+.newsHolder .btn{
+    float: right;
+    background-color: #5fc0c3;
+    border-color: #5fc0c3;
+    color: white;
+    outline:none;
+    margin-top: 10px;
+    border-radius: 0px;
+    text-shadow: none;
+    font-weight: bold;
+}
+@media (min-width: 480px) and (max-width: 769px) {    
+    .newsHolder .btn {
+        float: none;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .newsHolder {
+        padding: 16px 28px;
+    }
+    .newsHolder .btn {
+        float: none;
+    }
+
+}

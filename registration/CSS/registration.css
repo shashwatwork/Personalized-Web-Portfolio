@@ -1,0 +1,127 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2017, 10:18:15 AM
+    Author     : Devanshu
+*/
+
+@font-face {
+    font-family: 'ar destine';
+    src:url('../fonts/webfonts_AR-DESTINE/AR-DESTINE.ttf.woff') format('woff'),
+        url('../fonts/webfonts_AR-DESTINE/AR-DESTINE.ttf.svg#AR-DESTINE') format('svg'),
+        url('../fonts/webfonts_AR-DESTINE/AR-DESTINE.ttf.eot'),
+        url('../fonts/webfonts_AR-DESTINE/AR-DESTINE.ttf.eot?#iefix') format('embedded-opentype'); 
+}
+
+body{
+    background-color: orange;
+    background-image: url("../images/fun_colors_blur-wide.jpg");
+    color: #212121;
+    text-shadow: 0px 0px 4px #f9f9f9;
+}
+
+.registration-heading{
+    font-family: "ar destine", cursive;
+   // font-size: 2em;
+}
+label{
+    font-family: "ar destine", cursive;
+    letter-spacing: .1em;
+    font-size: 1.2em;
+}
+button.my-button {
+    padding: 8px 25px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.2em;
+    outline: none;
+    transition: all 0.5s;
+    margin:20px auto;
+}
+button.my-button:hover{
+    background-color: rgba(0, 0, 0, 0.28);
+    box-shadow: 0px 8px 18px 0px #505050;
+    transition: all 0.5s;
+}
+button.my-button:active{
+   transition: all 0.5s;
+    
+}
+button[disabled].my-button{
+    transition: none;
+}
+button[disabled].my-button:hover{
+    transition: none;
+    box-shadow: none;
+    cursor: not-allowed;
+    background-color: transparent;
+}
+.myAlertBox{
+    display: none;
+    margin-top: 5px;
+    border-radius: 0px;
+    margin-bottom: 30px;
+}
+.myAlertBox ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+.success-details{
+    display: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.info-details{
+    display: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.info-details ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+
+    /*
+      Introduced in IE 10.
+      See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+    */
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+    button.my-button {
+        padding: 4px 11px;
+        font-size: 1em;
+    }
+    
+    .alert>p, .alert>ul {
+        padding-left: 0px;
+    }
+    
+    .myAlertBox ul li{
+        padding: 3px;
+        font-size: 0.8em;
+    }
+    
+    .info-details ul{
+        padding-left: 0px;
+    }
+    .info-details ul li{
+        padding: 3px;
+        font-size: 0.8em;
+    }
+    
+}

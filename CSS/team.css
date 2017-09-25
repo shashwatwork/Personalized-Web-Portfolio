@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 12, 2017, 10:33:55 PM
+    Author     : Devanshu
+*/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
+body .team{
+    padding:20px 0px;
+}
+.team{
+/*    background-image: url("../images/team/IMG_20140106_030215.jpg");*/
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2.description{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 20px 0px;
+    color: black;
+    text-align: center;
+    font-family: 'Bungee Inline', cursive; 
+}
+.profile{
+    margin-top: 25px;
+}
+.profile h1{
+    font-weight: normal;
+    font-size: 20px;
+    margin:10px 0 0 0;
+    color: black;
+}
+.profile h2{
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 5px;
+    text-align: left;
+    color: black;
+    padding:0px;
+}
+.profile .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile .img-box:after{
+    content:"";
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}

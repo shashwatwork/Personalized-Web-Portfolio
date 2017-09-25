@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 14, 2017, 5:34:00 PM
+    Author     : Devanshu
+*/
+.contact{
+    padding:20px 0px;
+    background-color: #f7f7f7;
+}
+.contact h1{
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    margin: 30px 0px;
+}
+.address-container{
+    
+}
+.address-container h2{
+   font-family: 'Bungee Inline', cursive;
+   color: black;
+   font-size: 2.4em;
+   text-align: left;
+}
+.address-container p,.address-container ul li{
+    font-size: 1.2em;
+}
+.address-container ul{
+    list-style-type: none;   
+}
+.address-container ul{
+    padding: 0px;
+}
+.img-container img{
+    border-radius: 10px;
+}
+

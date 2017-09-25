@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2017, 9:24:14 PM
+    Author     : Devanshu
+*/
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');/*font-family: 'Bungee Inline', cursive;*/
+
+.content {
+    padding-top: 30px;
+}
+.carousel-container{
+    background-color: #f5f5f5;
+}
+/* Heading */
+.heading {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.carousel-container h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 20px 0px;
+    color: black;
+    text-align: center;
+    font-family: 'Bungee Inline', cursive; 
+}
+/* Team Members */
+.team-members {
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.team-members .team-avatar {
+    position: relative;
+}
+
+.team-members .team-avatar:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: " ";
+    position: absolute;
+    background: rgba(129, 129, 129, 0.1);
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.team-members .team-avatar img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-members .team-desc {
+    left: auto;
+    bottom: 0;
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    opacity: 0;
+    color: #fff;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0);
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.team-members .team-desc h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: #fff;
+}
+
+.team-members .team-desc span {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.team-members:hover .team-avatar:after {
+    background: rgba(47, 60, 72, 0.5);
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.team-members:hover .team-desc {
+    -webkit-transform: translate3d(0, -5%, 0);
+    transform: translate3d(0, -5%, 0);
+    -webkit-transform: translate3d(0, -10%, 0);
+    transform: translate3d(0, -10%, 0);
+}
+
+.team-members:hover .team-desc {
+    opacity: 1;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.carousel-container .button-container{
+    text-align: center;
+    margin: 25px 0px;
+    padding: 0px;
+}
+.carousel-container .button-container button{
+    padding: 10px 50px;
+    font-family: 'Bungee Inline', cursive;
+    border: none;
+    border:1px solid black;
+    outline: none;
+    border-left: 0px;
+    border-right: 0px;/*
+*/    margin: 0px -3px;
+}
+.hvr-shutter-in-horizontal:before {
+    background-color: white;
+}
+@media (min-width: 768px) and (max-width: 1024px) {   
+}
+@media (min-width: 480px) and (max-width: 767px) {
+    .carousel-container h2 {
+        font-size: 30px;
+    }
+    .carousel-container .button-container button{
+        padding: 8px 26px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .carousel-container h2 {
+        font-size: 25px;
+    }
+    .carousel-container .button-container button{
+        padding: 7px 11px;
+        font-size: .7em;
+    }
+}

@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 14, 2017, 6:50:43 PM
+    Author     : Devanshu
+*/
+.gallery{
+    padding:20px 0px;
+    
+}
+.gallery h1{
+    margin: 20px 0px;
+    color: black;
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+}
+.gallery .container .row img {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+    width:300px;
+    height:300px;
+}
+
+.gallery .container .row img:hover {
+    filter: none; /* IE6-9 */
+    -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+
+}
+
+@media only screen and (max-width: 480px) {
+    .gallery h1{
+        font-size: 1.8em;
+    }
+    .gallery .container .row img {
+        width:150px;
+        height:150px;
+    }
+
+}
