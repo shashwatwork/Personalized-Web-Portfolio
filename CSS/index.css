@@ -84,6 +84,12 @@ header{
 .introduction h3{
     font-size: 1.5em;
 }
+.t1{
+text-align: center;
+background-color: #f1f2f5;
+font-family: 'Bungee Inline', cursive;
+font-size: 2em;
+}
 @media (min-width: 768px) and (max-width: 1024px) {
 }
 @media (min-width: 480px) and (max-width: 767px) {
