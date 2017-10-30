@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.onliesam.web portfolio" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Shashwat tiwari's App</name>
+    <description>
+        Shashwat tiwari's web portfolio
+    </description>
+    <author email="stiwari2719@gmail.com" href="http://phonegap.com">
+        Onlinesam team
+    </author>
+    <platform name="ios"/>
+    <platform name="android"/>
+    <platform name="winphone"/>
+    <!-- Android -->
+    <prefernce name="android-minsdkversion" value="19" />
+    <!--Iphone -->
+    <preference name="deployment-target" value="7.0"/>
+    
+    <!-- Windows 10 -->
+    <prefernce name="windows-appx-target" value="uap"/>
+    <prefernce name="windows-appx-target" value="8.1-win"/>
+    <prefernce name="windows-appx-target" value="8.1-phone"/>
+    
+    
+   <!-- <splash platform="android" qualifier="port-ldpi" src="www/splash/android/ldpi.png"/>
+    <splash platform="android" qualifier="port-mdpi" src="www/splash/android/MDPI.png"/>
+    <splash platform="android" qualifier="port-hdpi" src="www/splash/android/HDPI.png"/>
+    <splash platform="android" qualifier="port-xhdpi" src="www/splash/android/XHDPI.png"/>
+    
+     
+    <splash platform="android" qualifier="land-ldpi" src="www/splash/android/ldpi.png"/>
+    <splash platform="android" qualifier="land-mdpi" src="www/splash/android/MDPI.png"/>
+    <splash platform="android" qualifier="land-hdpi" src="www/splash/android/HDPI.png"/>
+    <splash platform="android" qualifier="land-xhdpi" src="www/splash/android/XHDPI.png"/>
+    
+    <splash src="splash.png"/>
+    <prefernce name="SplashScreenDelay" value="5000"/>-->
+    <icon src="icon.png"/>
+    
+    <plugin name="cordova-plugin-splashscreen" source="npm"/>
+    <plugin name="cordova-plugin-whitelist" source="npm"/>
+    <plugin name="cordova-plugin-x-socialsharing" source="npm" />
+    <plugin name="cordova-plugin-inappbrowser" source="npm"/>
+    <plugin name="cordova-plugin-admob-free" source="npm"/>
+    <plugin name="cordova-plugin-network-information" source="npm"/>
+    <plugin name="cordova-plugin-x-toast" source="npm"/>
+
+    
+    
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
